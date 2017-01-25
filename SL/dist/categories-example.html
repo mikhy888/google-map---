@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Map Example - Categories</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/storelocator.css" />
+</head>
+
+<body>
+
+<div class="bh-sl-container">
+    <!-- map filter section starts -->
+	<div class="bh-sl-form-container">
+		<form id="bh-sl-user-location" method="post" action="#">
+
+			<div class="bh-sl-filters-container">
+				<ul id="country-filter" class="bh-sl-filters">
+					<li><h3>Countries</h3></li>
+					<li>
+						<select name="country">
+							<option value="UAE">UAE</option>
+							<option value="Iran">Iran</option>
+							<option value="Oman">Oman</option>
+							<option value="Yemen">Yemen</option>
+							<option value="Dubai">Soudi Arabia</option>
+						</select>
+					</li>
+				</ul>
+				
+				<div class="bh-sl-loc-list">
+					<ul class="list"></ul>
+				</div>
+			</div>
+		</form>
+	</div>
+	<!-- map-filter section ends here -->
+
+	<!-- map container starts -->
+	<div id="bh-sl-map-container" class="bh-sl-map-container">
+		<div id="bh-sl-map" class="bh-sl-map"></div>
+	</div>
+	<!-- map container ends -->
+</div>
+
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+<script src="assets/js/handlebars.min.js"></script>
+<script src="https://maps.google.com/maps/api/js?key=AIzaSyB2HG7BcD5-C84ZGslPtC5QWVtn2eWfN74"></script>
+<script src="assets/js/jquery.storelocator.js"></script>
+<script>
+	$(function() {
+		/*store locator initialization*/
+		$('#bh-sl-map-container').storeLocator({
+			'maxDistance': false,
+			'taxonomyFilters' : {
+				'category' : 'category-filters-container1',
+				'features' : 'category-filters-container2',
+				'city' : 'city-filter',
+				'country': 'country-filter'
+			},
+			'slideMap' : false,
+			'defaultLoc': true,
+			'defaultLat': '25.204849',
+			'defaultLng' : '55.270783'
+		});
+	});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<markers>
+	<!-- country one -->
+	<marker name="mxml Dubai" lat="25.204849" lng="55.270783" category="" address="" address2="" city="Dubai" state="" postal="" country="UAE" phone="763-544-2530" email="info@chipotle.com" web="http://www.chipotle.com" hours1="Mon-Sun 11am-10pm" hours2="" hours3="" featured="" features="" />
+
+	<marker name="mxml Al Ain " lat="24.1301619" lng="55.802311799999984" category="" address="786 Mainstreet" address2="" city="Al Ain" state="MN" postal="" country="UAE" phone="952-935-0044" email="info@chipotle.com" web="http://www.chipotle.com" hours1="Mon-Sun 11am-10pm" hours2="" hours3="" featured="" features="" />
+
+	<marker name="mxml Abu Dhabi " lat="24.453884" lng="54.37734380000006" category="" address="1040 Nicollet Ave" address2="" city="Abu Dhabi" state="MN" postal="" country="UAE" phone="612-659-7955" email="info@chipotle.com" web="http://www.chipotle.com" hours1="Mon-Sun 11am-10pm" hours2="" hours3="" featured="" features="" />
+
+	<marker name="mxml Sharjah " lat="25.3462553" lng="55.42093169999998" category="" address="50 South 6th" address2="" city="Sharjah" state="MN" postal="" country="UAE" phone="612-333-0434" email="info@chipotle.com" web="http://www.chipotle.com" hours1="Mon-Sun 11am-10pm" hours2="" hours3="" featured="" features="" />
+
+	<!--country two-->
+	<marker name="mxml Muscat" lat="23.585890" lng="58.405923" category="" address="" address2="" city="Muscat" state="" postal="" country="Oman" phone="763-544-2530" email="info@chipotle.com" web="http://www.chipotle.com" hours1="Mon-Sun 11am-10pm" hours2="" hours3="" featured="" features="" />
+
+	<marker name="mxml Sohar" lat="24.346096" lng="56.707514" category="" address="786 Mainstreet" address2="" city="Sohar" state="MN" postal="" country="Oman" phone="952-935-0044" email="info@chipotle.com" web="http://www.chipotle.com" hours1="Mon-Sun 11am-10pm" hours2="" hours3="" featured="" features="" />
+
+	<marker name="mxml Haima" lat="19.953522" lng="56.287348" category="" address="1040 Nicollet Ave" address2="" city="Haima" state="MN" postal="" country="Oman" phone="612-659-7955" email="info@chipotle.com" web="http://www.chipotle.com" hours1="Mon-Sun 11am-10pm" hours2="" hours3="" featured="" features="" />
+
+	<marker name="mxml Lakabi" lat="18.229700" lng="56.554779" category="" address="50 South 6th" address2="" city="Lakabi" state="MN" postal="" country="Oman" phone="612-333-0434" email="info@chipotle.com" web="http://www.chipotle.com" hours1="Mon-Sun 11am-10pm" hours2="" hours3="" featured="" features="" />
+
+	
+</markers>
